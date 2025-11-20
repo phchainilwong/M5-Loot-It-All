@@ -1,7 +1,8 @@
-[gd_scene load_steps=7 format=3 uid="uid://dmv50krf4bo5r"]
+[gd_scene load_steps=8 format=3 uid="uid://dmv50krf4bo5r"]
 
 [ext_resource type="Texture2D" uid="uid://bniyrxn3r2v8h" path="res://assets/ship.png" id="3_pdppw"]
 [ext_resource type="Script" uid="uid://bwkr2t4ku15qq" path="res://lessons/ship.gd" id="4_p1sls"]
+[ext_resource type="Texture2D" uid="uid://d0bh8am2qd005" path="res://assets/gem_icon.png" id="5_h3paj"]
 [ext_resource type="PackedScene" uid="uid://dgf54k70yiiff" path="res://assets/ship_visual_effects/main_thruster/main_thruster.tscn" id="5_q7c3l"]
 [ext_resource type="PackedScene" uid="uid://bklom8bhpxg4h" path="res://assets/ship_visual_effects/side_thruster/side_thruster.tscn" id="6_1updt"]
 
@@ -51,3 +52,11 @@ offset_bottom = -57.0
 theme_override_styles/fill = SubResource("StyleBoxFlat_5xifn")
 value = 50.0
 show_percentage = false
+
+[node name="Sprite2D" type="Sprite2D" parent="UI"]
+texture = ExtResource("5_h3paj")
+
+[node name="GemCount" type="Label" parent="UI"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
