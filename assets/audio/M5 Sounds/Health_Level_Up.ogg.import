@@ -1,0 +1,18 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dcop8hqrovqs6"
+valid=false
+
+[deps]
+
+source_file="res://assets/audio/M5 Sounds/Health_Level_Up.ogg"
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
