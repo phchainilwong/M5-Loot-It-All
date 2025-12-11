@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b4trlh1e4gh3y"
+path="res://.godot/imported/Health_Level_Up.wav-50a81785c2d37fd1fe30b90761d83020.sample"
+
+[deps]
+
+source_file="res://assets/audio/M5 Sounds/Health_Level_Up.wav"
+dest_files=["res://.godot/imported/Health_Level_Up.wav-50a81785c2d37fd1fe30b90761d83020.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
